@@ -83,6 +83,12 @@ body {
   padding: 20px;
   display: flex;
   align-items: center;
+  width: 100%;
+}
+.form form {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 .input {
   padding: 10px;
@@ -94,6 +100,7 @@ body {
 .input:focus {
   outline: none;
 }
+
 .add {
   border: none;
   background-color: var(--main-color);
