@@ -20,6 +20,7 @@ if ($result->num_rows > 0) {
         'status' => 'success',
         'message' => 'User logged in successfully.'
     ];
+    
 } else {
     // If no rows were returned, the login failed
     $response = [

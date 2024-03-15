@@ -11,5 +11,7 @@ form.addEventListener("submit", (e) => {
     body: formData,
   })
     .then((res) => res.json())
-    .then((res) => console.log(res));
+    .then((res) => {
+      window.location.replace("../../index.html");
+    });
 });
